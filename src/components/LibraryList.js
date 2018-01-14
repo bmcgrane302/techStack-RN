@@ -9,7 +9,7 @@ class LibraryList extends Component {
 
     return (
 
-      <Text>test</Text>
+      <Text></Text>
     );
   }
 }
