@@ -18,6 +18,7 @@ class LibraryList extends Component {
 
   render() {
     console.log('props in state',this.props);
+
     return (
 
       <ListView
@@ -27,6 +28,8 @@ class LibraryList extends Component {
     );
   }
 }
+
+
 
 const mapStateToProps = state => {
   console.log(state);
